@@ -1,3 +1,4 @@
+import NavBar from "../components/layout/NavBar";
 import "./globals.css"
 import { Inter } from "next/font/google";
 
@@ -18,6 +19,7 @@ export default function RootLayout({children}){
       <body
         className="inter.variable"
       >
+        <NavBar/>
         {children}
       </body>
     </html>
