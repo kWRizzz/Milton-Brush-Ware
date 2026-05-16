@@ -1,3 +1,4 @@
+import AboutSection from "@/src/sections/home/AboutSection";
 import Features from "@/src/sections/home/Features";
 import Hero from "@/src/sections/home/Hero";
 import ProductSection from "@/src/sections/home/ProductSection";
@@ -9,6 +10,7 @@ export default function Home() {
         <Hero/>
         <Features/>
         <ProductSection/>
+        <AboutSection/>
       </>
   );
 }
